@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>CertNET</RootNamespace>
+
+        <!-- NuGet Package Metadata -->
+        <PackageId>CertNET</PackageId>
+        <Version>1.0.0</Version>
+        <Description>A strongly-typed, fluent .NET wrapper around the certbot CLI for managing Let's Encrypt certificates.</Description>
+        <PackageTags>certbot;letsencrypt;ssl;tls;certificate;acme</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageProjectUrl>https://github.com/Alexr03/CertNET</PackageProjectUrl>
+        <PackageIcon>CertNET.png</PackageIcon>
+        <RepositoryUrl>https://github.com/Alexr03/CertNET</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="CertNET.Tests" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="CertNET.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="src/CertNET/CertNET.csproj" />
+  <Project Path="src/CertNET.Plugins.Cloudflare/CertNET.Plugins.Cloudflare.csproj" />
+  <Folder Name="/examples/">
+    <Project Path="examples/CertNET.Console/CertNET.Console.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CertNET.Tests/CertNET.Tests.csproj" />
+  </Folder>
+</Solution>
